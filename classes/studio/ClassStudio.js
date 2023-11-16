@@ -1,5 +1,7 @@
 //Declare a class called CrewCandidate with a constructor that takes three parameters—name, mass, and scores. Note that scores will be an array of test results.
-
+class CrewCanditate {
+    construct()
+}
 
 
 //Add methods for adding scores, averaging scores and determining candidate status as described in the studio activity.
