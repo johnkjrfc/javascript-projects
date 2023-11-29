@@ -1,3 +1,10 @@
 const input = require('readline-sync');
 
-let info = input.question("Question text... ");
+
+function addTen(i) {
+    i += 10;
+    return i;
+  }
+  
+  let i = 17;
+  console.log(addTen(i), i)

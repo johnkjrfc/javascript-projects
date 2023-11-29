@@ -97,4 +97,5 @@ function fitnessTest(crew){
   };
 
 console.log(fitnessTest(crew))
-console.log(tardigrade.turns)
+console.log(tardigrade.turns)  //last part was pulled/reworked to meet my property names and such from the solutions.
+                              // Can you show me how to pass the fitness test scores of numSteps and turns?
