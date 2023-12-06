@@ -2,12 +2,19 @@
 <html>
    <head>
       <title>Fetch Planets</title>
+      <link rel="icon" href="favicon.ico" type="image/x-icon">   
       <script>
          window.addEventListener("load", function(){
+            let json =[];
             // TODO: fetch planets JSON
             fetch("https://handlers.education.launchcode.org/static/planets.json").then(function(response) {
-                console.log(response)
-            })
+ 
+               response.json().then(function(json) {       //this displays the array of objects and their key pairs
+                  console.log(json);
+               });   
+            });
+            const destination = document.getElementById("destination");
+            destination.innerHTML = `<h3>Planet ${json[0].name}</h3>`;
          });
       </script>
    </head>
